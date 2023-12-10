@@ -75,6 +75,7 @@ Run `chmod +x /usr/local/bin/synology-freshclam-fixer.py`. Or you can run it lik
 
 Setup periodical task using [Task Scheduler](https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/system_taskscheduler?version=6).
 For example, you can run this script once a day with specified parameters.
+Script should be runned under root user.
 
 ## Links
 
