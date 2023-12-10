@@ -35,8 +35,8 @@ options:
 
 ```sh
 ./synology-freshclam-fixer.py \
-    --config data/freshclam.conf \
-    --result data/changed-freshclam.conf \
+    --config '/volume1/@appstore/AntiVirus/engine/clamav/etc/freshclam.conf' \
+    --result '/tmp/changed-freshclam.conf' \
     --dns-database-info 'cvd.clamav.example.net' \
     --database-mirror 'https://clamav-ru.ai-stv.ru' \
     --database-mirror 'https://unlix.ru/clamav' \
